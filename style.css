@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color:#f2f2ea;
+}
+img,
+video{
+    width: 100%;
+}
+header{
+    background-image: url('./assets/Images/white\ bkx\ logo\ real\ idk.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo-Top_layer{
+    position: absolute;
+}
+.divider{
+    background-color: black;
+    height: 2px;
+}
+.logo{
+    width: 10%;
+    position: absolute;
+}
+.intro{
+    display: flex;
+}
