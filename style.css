@@ -4,6 +4,7 @@
 }
 body{
     background-color:#f2f2ea;
+    font-family: "Inter", sans-serif;
 }
 img,
 video{
@@ -20,12 +21,194 @@ header{
 }
 .divider{
     background-color: black;
-    height: 2px;
+    height: 5px;
+    width: 94%;
+    margin-left: 4%;
+    margin-bottom: 180px;
 }
 .logo{
     width: 10%;
     position: absolute;
 }
 .intro{
+    display: flex;
+}
+/* sections */
+.section1Text{
+    display: flex;
+    font-size: 46px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.section1{
+    margin: 4%;
+}
+.section1img{
+    width: 45%;
+    margin-left: 140px;
+    margin-top: 4%;
+}
+.number1{
+    margin-right: 50px;
+}
+.section2Text{
+    margin-left: 4%;
+    font-size: 18px;
+    margin-top: 4%;
+}
+.number2div{
+    display: flex;
+    margin-bottom: 9%;
+    font-size: 30px;
+}
+.section2-container-div{
+    display: flex;
+    justify-content: space-between;
+}
+.main-section2{
+    background-color: white;
+    padding-top: 300px;
+}
+.section2Img{
+    margin-top: 80px;
+    width: 45%;
+    margin-right: 6%;
+}
+.main-section2Text{
+    width: 55%;
+    font-size: 18px;
+}
+.number2{
+    margin-right: 6%;
+}
+.main-section2Text-para{
+    margin-left: 15%;
+}
+/* section3 */
+/* panel 1 */
+.panel1{
+    background-color: #e3e4d2;
+}
+.panel1-div{
+    display: flex;
+}
+.panel1Image{
+    width: 40%;
+}
+.panel1-div p{
+    width: 46%;
+}
+.panel1 h1{
+    font-size: 60px;
+    color: grey;
+    font-weight: 400;
+    margin-left: 4%;
+}
+/* panel 2 */
+.panel2{
+    background-color: #b5b79f;
+}
+.panel2-div{
+    display: flex;
+}
+.panel2Image{
+    width: 40%;
+}
+.panel2-div p{
+    width: 46%;
+}
+.panel2 h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 4%;
+}
+/* panel 3 */
+.panel3{
+    background-color: #6b6b63;
+    color: white;
+}
+.panel3-div{
+    display: flex;
+}
+.panel3Image{
+    width: 40%;
+}
+.panel3-div p{
+    width: 46%;
+}
+.panel3 h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 4%;
+}
+/* panel 4 */
+.panel4{
+    background-color: black;
+    color: white;
+}
+.panel4-div{
+    display: flex;
+}
+.panel4Image{
+    width: 40%;
+}
+.panel4-div p{
+    width: 46%;
+}
+.panel4 h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 4%;
+}
+/* panel 5 */
+.panel5{
+    background-color: black;
+    color: white;
+}
+.panel5-div{
+    display: flex;
+}
+.panel5Image{
+    width: 40%;
+}
+.panel5-div p{
+    width: 46%;
+}
+.panel5 h1{
+    font-size: 60px;
+    font-weight: 400;
+    margin-left: 4%;
+}
+/* header */
+header h1{
+    font-size: 130px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 110px;
+    letter-spacing: 2px;
+    padding: 80px 0px;
+    margin: 10px 0px;
+}
+.header-h1{
+    padding-left: 16px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(224, 222, 222);
+}
+.footer-list-links{
+    display: flex;
+}
+.services-papers{
+    display: flex;
+}
+.socials ul{
+    display: flex;
+}
+.conclusion{
     display: flex;
 }
