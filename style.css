@@ -18,6 +18,8 @@ header{
 }
 .logo-Top_layer{
     position: absolute;
+    width: 72%;
+    margin-top: 50px;
 }
 .divider{
     background-color: black;
@@ -27,8 +29,37 @@ header{
     margin-bottom: 180px;
 }
 .logo{
-    width: 10%;
     position: absolute;
+    margin-top: 50px;
+    width: 15%;
+}
+nav{
+    position: fixed;
+    background-color: #f2f2ea;
+    left: 80%;
+    width: 10%;
+    display: flex;
+}
+.navlinks a{
+    text-decoration: none;
+}
+.line{
+    width: 10%;
+    background-color: black;
+}
+.dropdown-btn{
+    border: 2px solid red;
+}
+li{
+    list-style: none;
+}
+.full-header-content{
+    display: flex;
+}
+.header-content-text{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
 }
 .intro{
     display: flex;
