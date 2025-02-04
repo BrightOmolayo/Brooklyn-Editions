@@ -36,20 +36,79 @@ header{
 nav{
     position: fixed;
     background-color: #f2f2ea;
-    left: 80%;
-    width: 10%;
+    left: 73%;
+    width: 27%;
     display: flex;
+    justify-content: space-between;
+    height: 650px;
 }
 .navlinks a{
     text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.navlinks{
+    margin-left: 15px;
+}
+.first-navlinks{
+    margin-top: 48px;
+}
+.second-navlinks{
+    position: relative; 
+    top: 70px;
+    width: 120%;
+}
+.second-navlinks li{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+}
+.second-navlinks a{
+    font-weight: 400;
+}
+#print-store{
+    position: relative;
+    top: 20px;
+}
+.second-navlinks .fa{
+    margin-right: 13px;
+}
+.first-navlinks li{
+    margin-top: 6px;
+    margin-bottom: 3px;
+    padding: 4px;
 }
 .line{
-    width: 10%;
+    width: 90%;
+    height: 2px;
     background-color: black;
 }
 .dropdown-btn{
-    border: 2px solid red;
+    border: 2px solid rgb(41, 33, 33);
+    width: 20%;
+    height: 60px;
+    padding: 1px;
+    padding-left: 5px;
+    position: relative;
+    top: 22px;
+    right: 15px;
+    background-color: #f2f2ea;
+    box-shadow: 0.5px 0.5px 0.7px 9px rgba(237, 236, 236, 0.5);
+    border-radius: 10px;
 }
+.dropdown-btn-line{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    position: relative;
+    top: 15px;
+    left: 6px;
+    width: 80%;
+    transition: transform 0.4s ease, opacity 0.3s ease;
+}
+
+
 li{
     list-style: none;
 }
